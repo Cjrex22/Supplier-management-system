@@ -2,30 +2,22 @@
 
 A comprehensive system for managing suppliers, tracking deliveries, and handling transactions.
 
-## Requirements
+## 🚀 Quick Start
 
-- Java 8+
-- Apache Ant (`brew install ant` on Mac)
-- MySQL Server
+1. **Clone the Repo**.
+2. **Follow the [Setup Guide](SETUP.md)** to install dependencies and configure the database.
+3. **Run the App**:
+   - **Mac/Linux**: `./Start_App.command`
+   - **Windows**: Double-click `run.bat`
 
-## Setup
+---
 
-1. **Database** – Import `projectdatabase.sql` into your MySQL database (`projectDatabase`).
-2. **Configuration** – Update connection details in `src/DataBase_connect.java` if your DB credentials differ (default: root/no password).
+## Technical Stack
+- **Language**: Java 8+
+- **Database**: MySQL
+- **Build Tool**: Apache Ant
+- **UI**: Desktop (Java Swing)
 
-## Run
-
-Simply use the provided scripts:
-
-**Mac/Linux:**
-```bash
-./run.sh
-```
-
-**Windows:**
-Double-click `run.bat` or run it via Command Prompt.
-
-Alternatively, run via Ant directly:
-```bash
-ant run
-```
+## Login Credentials
+- **Username:** `admin`
+- **Password:** `pass`
